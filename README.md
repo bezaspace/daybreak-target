@@ -9,3 +9,13 @@ Install dependencies and run the tests:
 npm install
 npm test
 ```
+
+### sum
+
+The `sum` function adds two numbers together:
+
+```js
+import { sum } from "./sum.js";
+
+console.log(sum(2, 3)); // 5
+```
