@@ -9,4 +9,7 @@ describe("sum", () => {
   it("works with negative numbers", () => {
     assert.strictEqual(sum(-2, 3), 1);
   });
+  it("adds zero and a number", () => {
+    assert.strictEqual(sum(0, 5), 5);
+  });
 });
